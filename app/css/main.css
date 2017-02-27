@@ -26,13 +26,13 @@ ol, ul {
   list-style: none;
 }
 
-.clearfix:after, .emergency:after {
+.clearfix:after, .emergency:after, .o-prices__element-wp:after, .o-prices__item:after {
   content: '';
   display: table;
   clear: both;
 }
 
-.clearfix:before, .emergency:before {
+.clearfix:before, .emergency:before, .o-prices__element-wp:before, .o-prices__item:before {
   content: '';
   display: table;
 }
@@ -470,4 +470,358 @@ body {
   text-align: center;
   display: block;
   padding-bottom: 26px;
+}
+
+.o-prices__element {
+  background-color: #fff;
+  z-index: 2;
+  display: block;
+  padding: 12px 15px;
+  border-radius: 4px;
+  float: left;
+  margin-left: 1.94076%;
+  margin-bottom: 23px;
+}
+
+.o-prices__element-title {
+  color: #000;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-serif;
+  display: block;
+  padding-bottom: 16px;
+}
+
+.o-prices__element-l {
+  width: 26.762%;
+}
+
+.o-prices__element-b {
+  width: 34.11645%;
+}
+
+.o-prices__element-m {
+  width: 35.24004%;
+}
+
+.o-prices__element:first-child {
+  margin-left: 0;
+}
+
+.o-prices__element:nth-child(4) {
+  margin-left: 0;
+}
+
+.o-prices__element:nth-child(7) {
+  margin-left: 0;
+}
+
+.o-prices__item {
+  position: relative;
+  z-index: 99;
+}
+
+.o-prices__item::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background-color: transparent;
+  border-bottom: 1px dotted #d05e16;
+  z-index: -1;
+  bottom: 7px;
+  left: 0;
+  right: 0;
+}
+
+.o-prices__name {
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+  float: left;
+  display: block;
+  background-color: #fff;
+  padding-right: 5px;
+}
+
+.o-prices__price {
+  float: right;
+  color: #d05e16;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "RobotoBold", sans-serif;
+  display: block;
+  background-color: #fff;
+  padding-left: 5px;
+}
+
+.fifth {
+  background-color: #ebebeb;
+  padding-top: 26px;
+  padding-bottom: 40px;
+}
+
+.about-c__title-wp {
+  padding-bottom: 26px;
+  padding-top: 26px;
+  text-align: center;
+}
+
+.about-c__description p {
+  color: #464646;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.sixth {
+  padding-top: 20px;
+  padding-bottom: 26px;
+}
+
+.o-advantages__title-wp {
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 26px;
+}
+
+.o-advantages__item {
+  padding: 0 45px;
+}
+
+.o-advantages__item-title {
+  color: #f26522;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-serif;
+  text-align: center;
+  display: block;
+}
+
+.o-advantages__item-description {
+  display: block;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  color: #464646;
+}
+
+.o-advantages__img {
+  display: inline-block;
+  position: relative;
+  top: 28%;
+}
+
+.o-advantages__img-wp {
+  width: 142px;
+  height: 142px;
+  display: block;
+  background-image: url(../img/figure.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.seventh {
+  padding-bottom: 36px;
+}
+
+.r-events__title-wp {
+  text-align: center;
+  padding-bottom: 26px;
+  padding-top: 26px;
+}
+
+.r-events__item {
+  height: 130px;
+  padding-left: 207px;
+  position: relative;
+  margin-bottom: 36px;
+  margin-right: -2px;
+}
+
+.r-events__img-wp {
+  width: 185px;
+  height: 130px;
+  position: absolute;
+  top: 0;
+  left: 0px;
+}
+
+.r-events__row-time {
+  color: #000;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: "RobotoBold", sans-serif;
+  display: block;
+  padding: 4px 0 9px;
+}
+
+.r-events__row-title {
+  color: #000;
+  font-size: 16px;
+  font-family: "RobotoBold", sans-serif;
+  line-height: 18px;
+  display: block;
+  padding-bottom: 4px;
+}
+
+.r-events__row-title:hover {
+  color: #0794ca;
+}
+
+.r-events__row-title:active, .r-events__row-title:focus {
+  color: #000;
+}
+
+.r-events__row p {
+  color: #464646;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.r-events__row-button {
+  width: 15px;
+  height: 8px;
+  display: block;
+  background-image: url(../img/figure1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+  left: 207px;
+}
+
+.g-map {
+  width: 100%;
+  height: 444px;
+}
+
+.g-map iframe {
+  display: block;
+  width: 100%;
+  height: 444px;
+}
+
+.eighth {
+  background-image: url(../img/v-mast.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  min-height: 492px;
+}
+
+.eighth__bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.v-mast {
+  height: 492px;
+  width: 100%;
+  position: relative;
+}
+
+.v-mast__form {
+  width: 628px;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: 0 auto;
+  padding: 20px 40px 34px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+
+.v-mast__form-description {
+  color: #464646;
+  line-height: 18px;
+  font-size: 16px;
+  padding: 15px 0 25px;
+  display: block;
+}
+
+.v-mast .emergency__form-row {
+  padding: 0 100px;
+}
+
+.v-mast .emergency__form-button {
+  margin-top: 17px;
+}
+
+.footer {
+  background-color: #ebebeb;
+  padding-top: 18px;
+}
+
+.f-nav {
+  text-align: center;
+  font-size: 0;
+}
+
+.f-nav__item {
+  display: inline-block;
+  padding: 0 26px;
+}
+
+.f-nav__link {
+  color: #464646;
+  font-size: 16px;
+  display: block;
+}
+
+.f-nav__link:hover {
+  color: #464646;
+  text-decoration: underline;
+}
+
+.f-nav__link:focus, .f-nav__link:active {
+  color: #464646;
+}
+
+.f-phone {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.f-phone__item {
+  display: inline-block;
+  padding: 0 24px;
+}
+
+.f-phone__link {
+  display: block;
+  font-family: "RobotoBold", sans-serif;
+  color: #464646;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+.f-phone__link span {
+  font-family: "RobotoRegular", sans-serif;
+}
+
+.f-phone__link:hover, .f-phone__link:focus, .f-phone__link:active {
+  color: #464646;
+}
+
+.copy {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+
+.copy p {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #464646;
 }
