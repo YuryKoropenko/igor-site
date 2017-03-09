@@ -21,6 +21,7 @@
 	<!-- End_Styles -->
 	<!-- Scripts -->
 	<script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="libs/mask/jquery.maskedinput.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<!-- End_Scripts -->
 </head>
@@ -208,9 +209,9 @@
 										Вызов мастера
 									</b>
 									<div class="emergency__form-row">
-										<input type="text" class="emergency__form-input" placeholder="Ваше имя">
-										<input type="text" class="emergency__form-input" placeholder="Ваш телефон">
-										<textarea name="" id="" cols="30" rows="10" class="emergency__form-textarea" placeholder="Ваша проблема"></textarea>
+										<input type="text" class="emergency__form-input" placeholder="Ваше имя" required>
+										<input type="text" class="emergency__form-input emergency__form-input-phone" placeholder="Ваш телефон" required>
+										<textarea name="" id="" cols="30" rows="10" class="emergency__form-textarea" placeholder="Ваша проблема" required></textarea>
 									</div>
 									<button type="submit" class="emergency__form-button">
 										Отправить запрос
@@ -228,9 +229,43 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="third__brend">
-						<div class="brend">
-							<img src="img/brend.jpg" alt="" class="brend__img">
-						</div>
+						<ul class="brend">
+							<li class="brend__item">
+								<a href="#" class="brend__link">
+									<img src="img/sponsors/1.png" alt="" class="brend__img">
+								</a>
+							</li>
+							<li class="brend__item">
+								<a href="#" class="brend__link">
+									<img src="img/sponsors/2.png" alt="" class="brend__img">
+								</a>
+							</li>
+							<li class="brend__item">
+								<a href="#" class="brend__link">
+									<img src="img/sponsors/3.png" alt="" class="brend__img">
+								</a>
+							</li>
+							<li class="brend__item">
+								<a href="#" class="brend__link">
+									<img src="img/sponsors/4.png" alt="" class="brend__img">
+								</a>
+							</li>
+							<li class="brend__item">
+								<a href="#" class="brend__link">
+									<img src="img/sponsors/5.png" alt="" class="brend__img">
+								</a>
+							</li>
+							<li class="brend__item">
+								<a href="#" class="brend__link">
+									<img src="img/sponsors/6.png" alt="" class="brend__img">
+								</a>
+							</li>
+							<li class="brend__item">
+								<a href="#" class="brend__link">
+									<img src="img/sponsors/7.png" alt="" class="brend__img">
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -634,9 +669,9 @@
 										Заполните форму и мы свяжемся с Вами в самое ближайшее время
 									</p>
 									<div class="emergency__form-row">
-										<input type="text" class="emergency__form-input" placeholder="Ваше имя">
-										<input type="text" class="emergency__form-input" placeholder="Ваш телефон">
-										<textarea name="" id="" cols="30" rows="10" class="emergency__form-textarea" placeholder="Ваша проблема"></textarea>
+										<input type="text" class="emergency__form-input" placeholder="Ваше имя" required>
+										<input type="text" class="emergency__form-input emergency__form-input-phone" placeholder="Ваш телефон" required>
+										<textarea name="" id="" cols="30" rows="10" class="emergency__form-textarea" placeholder="Ваша проблема" required></textarea>
 									</div>
 									<button type="submit" class="emergency__form-button">
 										Отправить запрос
@@ -720,5 +755,23 @@
 			</div>
 		</div>
 	</footer>
+	<div class="popup-form__bg"></div>
+	<div class="popup-form">
+		<div class="popup-form-wp">
+		<button class="popup-form__close">&times;</button>
+		<form action="">
+			<b class="emergency__form-title">
+				Вызов мастера
+			</b>
+			<div class="emergency__form-row">
+				<input type="text" class="emergency__form-input" placeholder="Ваше имя" required>
+				<input type="text" class="emergency__form-input emergency__form-input-phone" placeholder="Ваш телефон" required>
+			</div>
+			<button type="submit" class="emergency__form-button">
+				Отправить запрос
+			</button>
+		</form>
+	</div>
+	</div>
 </body>
 </html>
